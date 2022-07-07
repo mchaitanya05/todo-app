@@ -18,6 +18,6 @@ const Todos = createSlice({
 });
 
 export const { addTodo, deleteTodo } = Todos.actions;
-export const getTodos = (state) => state.todos
+export const getTodos = (state) => state.todos;
 
 export default Todos.reducer;
